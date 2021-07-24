@@ -1,6 +1,6 @@
 module.exports = {
   presets: ["next/babel"],
-  plugins: [["babel-plugin-styled-components", {"ssr": true, "displayName": true, "preprocess": false}]],
+  plugins: [["babel-plugin-styled-components", {"ssr": true, "displayName": true, "preprocess": false}], "inline-react-svg"],
   env: {
     development : {
       presets: ["next/babel"],

@@ -1,4 +1,5 @@
 const withImages = require('next-images')
 module.exports = withImages({
-  inlineImageLimit: false
+  inlineImageLimit: false,
+  esModule: true
 })
